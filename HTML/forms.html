@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!--Action,Input,Lable-->
+    <form action="https://www.youtube.com/results">
+        <label>
+            Username
+            <input type="text" placeholder="Enter Name">
+
+        </label>
+        <br>
+        Password
+        <input type="password" placeholder="Enter Password">
+        <br>
+        Age
+        <input type="number" placeholder="Enter Age">
+        <br>
+        Youtube 
+        <input type="text" placeholder="Search in youtube" name="search_query">
+        <button>Search</button>
+        Time
+        <input type="time" placeholder="Enter Time">
+        <!--Button-->
+        <button>Submit</button>
+    </form>
+    <hr>
+    <!--Name Attribute-->
+    <form action="https://www.google.com/search?">
+        <label>
+            Search in Google 
+            <input type="text" placeholder="Search in google" name="q">
+        </label>
+        <hr>
+
+    </form>
+    <!--Check box-->
+    <form action="/server">
+
+        <div>
+            Choose your subjects :- 
+            <br>
+            <input type="checkbox" name="Subjects" id="Maths" value="maths">
+            <label for="maths">Maths</label>
+            <br>
+            <input type="checkbox" name="Subjects" id="English" value="english">
+            <label for="maths">English</label>
+            <br>
+            <input type="checkbox" name="Subjects" id="Science" value="science">
+            <label for="maths">Science</label>  
+        </div>
+        <button>Submit</button>
+
+    </form>
+    <hr>
+    <!--Radio button-->
+    <form action="/server">
+        Favourit fruit :--
+        <br>
+        <input  type="radio" name="fruit" id="Apple" value="apple" >
+        <label for="Apple">Apple</label>
+        <br>
+
+        <input  type="radio" name="fruit" id="Orange" value="orange" >
+        <label for="Orange">Orange</label>
+        <br>
+        <input  type="radio" name="fruit" id="Banana" value="orange" >
+        <label for="Orange">Banana</label>
+        <br>
+        <button>Submit</button>
+
+    </form>
+    <hr>
+    <!--Select (Dropdown)-->
+    <form action="/youtube">
+        <div>
+            Choose your occupation :-
+            <br>
+            <select name="profession" id="profession">
+                <option selected>Select your option</option>
+                <option value="stu">Student</option>
+                <option value="dev">Developer</option>
+                <option value="prog">Programmer</option>
+                
+            </select>
+            <button>Submit</button>
+        </div>
+    </form>
+    <hr>
+    <!--Range-->
+    <form action="/instagram">
+        <div>
+            What is ur budget :-
+            <br>
+            <input type="range" min="0" max="10000000" name="Budget" id="Budget" step="10000">
+            <label for="Budget">Budget</label>
+        </div>
+        <button>Done</button>
+
+    </form>
+    <hr>
+    <form action="/facebook">
+        <div>
+            <label for="Feedback">Please provide your valuble feedback</label>
+            <textarea id="Feedback" name="Feedback" rows="5" cols="50"
+            placeholder="Write your feedback here "></textarea>
+            <button>Submit</button>
+            
+        </div>
+        
+    </form>
+
+
+        
+
+
+</body>
+</html>
