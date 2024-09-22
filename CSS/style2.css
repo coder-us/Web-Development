@@ -1,0 +1,77 @@
+* {
+    font-family: arial;
+
+}
+
+
+h1{
+    color: #B92B27;
+}
+#login{
+    background-color:white;
+}
+#signup{
+    background-color: #B92B27 ;
+    color: aliceblue;
+}
+.upvote{
+    background-color: green;
+    color: aliceblue;
+
+}
+/* descendant selector */
+
+p a{
+    color: blueviolet;
+}
+
+/* Adjacent sibling combinator */
+
+p + h3{
+    color: brown;
+    text-decoration:blue underline;
+}
+.upvote + button{
+    background-color: aquamarine;
+}
+
+/* Child Combinator */
+
+div>input{
+    background-color: goldenrod;
+}
+
+/* Attribute Selector */
+
+input[type="text"]{
+    color:red;
+}
+input[type="password"]{
+    color: green;
+}
+
+/* Pseudo Class */
+
+/* Hover */
+button:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+/* Active */
+button:active{
+    background-color: fuchsia;
+
+} 
+
+/* Pseudo Element  */
+
+/* first letter  */
+h1::first-letter{
+    color: black;
+}
+/* first line */
+#hehe::first-line{
+    color: chartreuse;
+}
+
+
