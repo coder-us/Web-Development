@@ -1,0 +1,31 @@
+
+div {
+    height: 100px;
+    width: 900px;
+    background-color: pink;
+    /* Border width,style,color */
+    border-width: 5px;
+    border-style: solid;
+    border-color: maroon;
+    /* Border Radius */
+    border-radius: 15px;
+    /* Padding */
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* Margin */
+    margin-bottom: 10px;
+}
+button{
+    border: 5px solid greenyellow;
+     /* Border sides */
+     border-top:dashed red ;
+}
+
+/* Display property */
+h2{
+    display: inline;
+}
+span{
+    display: block;
+}
